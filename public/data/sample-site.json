@@ -1,0 +1,94 @@
+{
+  "siteName": "Pocket Beauty Studio",
+  "tagline": "スマホだけで“予約が増える”モバイルファーストCMS",
+  "subcopy": "予約 / LINE / 電話を固定フッターで最短導線。投稿するとトップが整います。",
+  "theme": {
+    "primary": "#2563eb",
+    "accent": "#0ea5e9",
+    "bg": "#0b1f33"
+  },
+  "cta": {
+    "booking": {
+      "label": "予約する",
+      "url": "https://example.com/reserve"
+    },
+    "line": {
+      "label": "LINEで相談",
+      "url": "https://line.me/R/ti/p/sample"
+    },
+    "call": {
+      "label": "電話する",
+      "tel": "03-1234-5678"
+    }
+  },
+  "availability": {
+    "hasSlotsToday": true,
+    "note": "本日の空きあり、18時まで受付"
+  },
+  "shortLinks": {
+    "shortUrl": "https://pckt.page/beauty",
+    "qrLabel": "店頭ポスター用 QR"
+  },
+  "menu": [
+    { "title": "カット＋スタイリング", "price": "¥6,600", "duration": "60分", "desc": "似合わせカットと仕上げ込み。" },
+    { "title": "髪質改善トリートメント", "price": "¥8,800", "duration": "75分", "desc": "ホームケア付きの集中補修。" },
+    { "title": "ヘッドスパ", "price": "¥4,400", "duration": "30分", "desc": "眼精疲労と睡眠ケアに。" }
+  ],
+  "posts": [
+    {
+      "title": "透明感グレージュ",
+      "tags": ["美容室", "カラー", "ロング"],
+      "media": ["../assets/placeholder.svg", "../assets/placeholder.svg"],
+      "cta": "LINEで相談",
+      "result": "ご新規の予約導線でCVR+18%",
+      "created": "2024-05-12"
+    },
+    {
+      "title": "メンズパーマ×フェード",
+      "tags": ["メンズ", "パーマ"],
+      "media": ["../assets/placeholder.svg"],
+      "cta": "予約する",
+      "result": "1週間でリピート3件",
+      "created": "2024-05-10"
+    },
+    {
+      "title": "整体：肩こり集中30分",
+      "tags": ["整体", "本日の空き"],
+      "media": ["../assets/placeholder.svg"],
+      "cta": "電話",
+      "result": "当日予約2件獲得",
+      "created": "2024-05-08"
+    }
+  ],
+  "faq": [
+    {
+      "q": "今使っている予約システムと連携できますか？",
+      "a": "はい。外部の予約URLをそのまま固定フッターのボタンに設定できます。"
+    },
+    {
+      "q": "独自ドメインの設定はできますか？",
+      "a": "Proプラン以上で対応。設定ガイドと代行オプションがあります。"
+    }
+  ],
+  "access": {
+    "address": "東京都渋谷区渋谷1-2-3 5F",
+    "hours": "10:00 - 20:00 (水曜定休)",
+    "mapEmbed": "https://maps.google.com"
+  },
+  "staff": [
+    { "name": "Mai K.", "role": "Director / Stylist", "bio": "美容師歴10年。ショートとブリーチが得意。" },
+    { "name": "Ryo S.", "role": "Therapist", "bio": "整体とストレッチを組み合わせた施術を提供。" }
+  ],
+  "analytics": {
+    "ctaClicks": {
+      "booking": 128,
+      "line": 244,
+      "call": 93
+    },
+    "traffic": {
+      "instagram": 62,
+      "maps": 18,
+      "direct": 20
+    }
+  }
+}

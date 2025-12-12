@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PocketCMS 管理デモ</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div class="badge">現場更新 30秒 / 固定CTA</div>
+      <h1>PocketCMS 管理デモ</h1>
+      <p class="small">入力内容はブラウザのローカルストレージに保存され、公開画面（index.html）に即時反映されます。</p>
+    </header>
+
+    <nav class="tabs" id="tabs"></nav>
+
+    <section id="panel-site" class="card"></section>
+    <section id="panel-cta" class="card" style="display:none;"></section>
+    <section id="panel-posts" class="card" style="display:none;"></section>
+    <section id="panel-faq" class="card" style="display:none;"></section>
+  </div>
+  <div class="cta-footer" style="position: sticky; bottom:0;">
+    <button id="save" class="btn">保存して公開に反映</button>
+    <a class="btn secondary" href="index.html">公開ページを開く</a>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>
