@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PocketCMS デモサイト</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page" id="app">
+    <header class="hero">
+      <div class="badge" id="badge"></div>
+      <h1 id="site-title"></h1>
+      <p id="site-tagline"></p>
+      <p class="small" id="site-subcopy"></p>
+      <div class="grid" style="margin-top: 10px; gap: 10px;">
+        <div class="card">
+          <div class="section-header">
+            <h2>メニュー / 料金</h2>
+            <span class="tag">テンプレ固定</span>
+          </div>
+          <table class="table-like" id="menu-table"></table>
+        </div>
+        <div class="card">
+          <div class="section-header">
+            <h2>導線ツール</h2>
+            <span class="tag">QR / 短縮URL / OGP</span>
+          </div>
+          <div class="qr-box" id="qr-box"></div>
+          <p class="small">固定フッターCTA・OGPは自動生成。モバイル前提で表示速度を最適化します。</p>
+        </div>
+      </div>
+    </header>
+
+    <section style="margin-top: 18px;" id="availability"></section>
+
+    <section class="grid cards" id="posts"></section>
+
+    <section style="margin-top: 16px;" class="card">
+      <div class="section-header">
+        <h2>スタッフ</h2>
+        <div class="list-inline" id="staff-tags"></div>
+      </div>
+      <div id="staff-list" class="grid cards" style="margin-top: 8px;"></div>
+    </section>
+
+    <section style="margin-top: 16px;" class="card">
+      <div class="section-header">
+        <h2>アクセス / 営業情報</h2>
+        <span class="tag">Google マップ埋め込み可</span>
+      </div>
+      <table class="table-like" id="access-table"></table>
+    </section>
+
+    <section style="margin-top: 16px;" class="card">
+      <div class="section-header">
+        <h2>FAQ</h2>
+        <span class="tag">解約理由を先回り</span>
+      </div>
+      <div id="faq-list"></div>
+    </section>
+
+    <section style="margin-top: 16px;" class="card">
+      <div class="section-header">
+        <h2>CTA計測（簡易分析）</h2>
+        <span class="tag">タップ数を即確認</span>
+      </div>
+      <div class="analytics" id="analytics"></div>
+    </section>
+  </div>
+
+  <div class="cta-footer" id="cta-footer"></div>
+  <script src="main.js"></script>
+</body>
+</html>
